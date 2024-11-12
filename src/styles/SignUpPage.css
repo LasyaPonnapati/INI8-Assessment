@@ -1,0 +1,54 @@
+.sign-up-form-outer-container{
+    box-shadow :0px 0px 10px gray;
+    width: 40%;
+    margin: 0px auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.sign-up-form-inner-container{
+    padding: 20px 70px;   
+}
+.sign-up-form-heading{
+    color: gray;
+}
+.sign-up-form{
+    display: flex;
+    flex-direction: column;
+}
+.sign-up-form input{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid gray;
+}
+.sign-up-form input:focus{
+    outline: none !important;
+}
+.sign-up-form button{
+    border: 1px solid gray;
+    background-color:#2374AB;
+    color: white;
+    margin-top: 10px;
+    width: 93%;
+    padding: 10px;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.already-registered-text{
+
+}
+.already-registered-text button{
+    background-color: white;
+    border:none;
+    color: #04395E;
+}
+.already-registered-text button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.signup-error-message{
+    color: red;
+    font-size:14px;
+}
